@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Blog.Algorithms\Blog.Algorithms.csproj" />
     <ProjectReference Include="..\Blog.ComputerScience\Blog.ComputerScience.csproj" />
     <ProjectReference Include="..\Blog.DataStructures\Blog.DataStructures.csproj" />
   </ItemGroup>

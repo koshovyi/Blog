@@ -3,13 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog", "Blog\Blog.csproj", "{F66FAA2C-A369-451B-86FB-644F9547B994}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog", "Blog\Blog.csproj", "{F66FAA2C-A369-451B-86FB-644F9547B994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.DataStructures", "Blog.DataStructures\Blog.DataStructures.csproj", "{3C604F49-9B4F-4150-961A-29781D6938C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.DataStructures", "Blog.DataStructures\Blog.DataStructures.csproj", "{3C604F49-9B4F-4150-961A-29781D6938C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blog.ComputerScience", "Blog.ComputerScience\Blog.ComputerScience.csproj", "{CFB5D35E-3D4A-480F-AFCC-0AF9696BFEFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.ComputerScience", "Blog.ComputerScience\Blog.ComputerScience.csproj", "{CFB5D35E-3D4A-480F-AFCC-0AF9696BFEFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{631A420C-2E2D-4987-B88F-E781FA5E1264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{631A420C-2E2D-4987-B88F-E781FA5E1264}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blog.Algorithms", "Blog.Algorithms\Blog.Algorithms.csproj", "{4C80E839-F3F0-4BD3-97C2-F1078A3E05C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8D9CC3B2-2F2C-4571-AA66-5161C3A861B5}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +40,10 @@ Global
 		{631A420C-2E2D-4987-B88F-E781FA5E1264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{631A420C-2E2D-4987-B88F-E781FA5E1264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{631A420C-2E2D-4987-B88F-E781FA5E1264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C80E839-F3F0-4BD3-97C2-F1078A3E05C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C80E839-F3F0-4BD3-97C2-F1078A3E05C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C80E839-F3F0-4BD3-97C2-F1078A3E05C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C80E839-F3F0-4BD3-97C2-F1078A3E05C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
