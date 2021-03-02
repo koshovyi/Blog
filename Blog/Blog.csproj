@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Blog.ComputerScience\Blog.ComputerScience.csproj" />
+    <ProjectReference Include="..\Blog.DataStructures\Blog.DataStructures.csproj" />
   </ItemGroup>
 
 </Project>
